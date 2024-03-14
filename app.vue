@@ -1,9 +1,11 @@
 <template>
-  <Landing :ds="this.ds"/>
+
+  <Fomo/>
+  
 </template>
 
 <script>
-import Landing from './components/Landing';
+import Fomo from './components/Fomo.vue';
 
 export default {
   data() {
@@ -12,6 +14,9 @@ export default {
         {name: "Andy", country: "Germany"},
         {name: "Tomas", country: "France"},
         {name: "Paul", country: "US"},
+        {name: "aAndy", country: "Germany"},
+        {name: "Taomas", country: "France"},
+        {name: "Paaul", country: "US"},
       ]
     }
   }
